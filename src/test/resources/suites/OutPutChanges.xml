@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Running positive scenarios for login feature">
+
+    <test name="check changes">
+        <classes>
+            <class name="testcases.TC03_ComparePrices">
+                <methods>
+                    <include name="checkChangesPrices_P"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

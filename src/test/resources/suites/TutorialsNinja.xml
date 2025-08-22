@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Running negative scenarios for login feature">
+    
+    <parameter name="browser" value=""/>
+    <parameter name="URL" value="https://tutorialsninja.com/demo/index.php?route=common/home"/>
+    <test name="Check negative scenarios for login feature of SwagLabs Web AppInvalid {userName}">
+        <classes>
+            <class name="testcases.TC02_TutorialsNinjaHomePage">
+                <methods>
+                    <include name="extractDataOfProductsFromTutorialsNinja_P"/>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+</suite>
