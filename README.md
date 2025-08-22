@@ -3,7 +3,7 @@
 ## 📌 Overview  
 This project automates the process of **scraping product details** from two e-commerce websites:  
 # **TutorialsNinja**  
-## ![TutorialsNinga_Logo](TutorialsNinja_logo.png)
+## ![TutorialsNinga_Logo](TutorialsNinja_Logo.png)
 # **SwagLabs**  
 ## ![SwagLabs_Logo](SwagLabs_Logo.png) 
 
@@ -11,6 +11,8 @@ With every run, product data (name + description + price) is **extracted and sto
 The system then compares the **current run** with the **previous run** for the same website.  
 
 If product prices have changed, a separate CSV file (`Products_change_...csv`) is generated with only the modified items.  
+
+## ![Usage Example](Example.gif)
 
 ---
 
@@ -47,3 +49,5 @@ If product prices have changed, a separate CSV file (`Products_change_...csv`) i
 ---
 
 ## ✅ Example Output (Products_change_TutorialsNinja.csv)  
+
+## Hint :- Project Underdevelopment

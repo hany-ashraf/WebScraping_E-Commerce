@@ -8,11 +8,11 @@ import pages.P03_TutorialsNinjaLoginPage;
 import java.util.ArrayList;
 
 public class TC02_TutorialsNinjaHomePage extends TestBase{
-    String firstName = "H7dffds45y";
-    String lastName = "As6gsdf75af";
-    String email = "Automa5fsdgsds9tonTer1@gmail.com";
-    String password = "jhk0sdfsshv@#$358";
-    String phone = "01245sfda1tvt738";
+    String firstName = "H7dffy";
+    String lastName = "As6gsdf";
+    String email = "Automa5fsdTer1@gmail.com";
+    String password = "jhk0sdfs$358";
+    String phone = "01245sfda1tv";
 
 
     @Test(priority = 1, description = "Register with valid data of new account")
